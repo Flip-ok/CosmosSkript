@@ -38,3 +38,14 @@ echo export NODENAME=${NODENAME} >> $HOME/.bash_profile
 echo export WALLETNAME=${WALLETNAME} >> $HOME/.bash_profile
 echo export CHAIN_ID=Cardchain >> $HOME/.bash_profile
 source ~/.bash_profile
+
+break
+;;
+
+"Exit")
+exit
+;;
+*) echo "invalid option $REPLY";;
+esac
+done
+done
